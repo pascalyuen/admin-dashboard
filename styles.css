@@ -8,18 +8,18 @@
 }
 
 body {
+  height: 100vh;
+  width: 100vw;
   font-family: 'Open Sans', sans-serif;
 }
 
 .container {
-  height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 1fr 6fr;
   grid-template-columns: 1fr 4fr;
 }
 
 .header {
-  grid-column: 2;
   background-color: white;
   padding: 15px 50px;
 
@@ -164,7 +164,7 @@ input[type="text"] {
 }
 
 .logo-icon {
-  height: 30px;
+  height: 35px;
 }
 
 .content {
@@ -174,7 +174,7 @@ input[type="text"] {
 
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2.5fr 1fr;
   gap: 20px;
 }
 
@@ -230,7 +230,6 @@ input[type="text"] {
   display: grid;
   gap: 20px;
   padding: 30px;
-  width: 350px;
   border-radius: 10px;
   background-color: white;
 }
