@@ -214,7 +214,8 @@ input[type="text"] {
 }
 
 .card-content {
-  font-size: 0.8em;
+  font-size: 0.9em;
+  color: #6b7280;
 }
 
 .card .icons {
@@ -225,7 +226,42 @@ input[type="text"] {
   grid-column: 2;
 }
 
+.small-card {
+  display: grid;
+  gap: 20px;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.announcement:nth-child(-n + 2) {
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #94a3b8;
+}
+
+.announcement-title {
+  font-size: 0.9em;
+}
+
+.announcement-content {
+  font-size: 0.8em;
+  color: #6b7280;
+}
+
 .trending {
   grid-row: 2;
   grid-column: 2;
+  font-size: 0.9em;
+}
+
+.trending-user {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 15px;
+}
+
+.user-bio {
+  color: #6b7280;
 }
